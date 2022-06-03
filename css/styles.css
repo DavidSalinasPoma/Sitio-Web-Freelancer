@@ -1,3 +1,15 @@
+/* Definición de colores con variables css :custom property */
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+}
+
+/* Fin Definición de colores con seudoselectores */
+
+
 /* Hack para utilizar REM decuenta de PX */
 html {
     font-size: 62.5;
@@ -11,8 +23,8 @@ body {
 /* Fin Hack para utilizar REM decuenta de PX */
 
 /* Css para freelancer */
-h1 {
+.titulo {
     text-align: center;
     font-size: 2rem;
-
+    color: var(--primario);
 }
