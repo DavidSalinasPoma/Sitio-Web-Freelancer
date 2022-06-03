@@ -26,10 +26,36 @@ body {
 /* Fin Hack para utilizar REM decuenta de PX */
 
 /* Css para freelancer */
-
-
 .titulo {
     text-align: center;
     font-size: 2rem;
     color: var(--primario);
+}
+
+.nav-bg {
+    background-color: var(--secundario);
+}
+
+.navegacion-principal {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    /* Propiedad para centrar columnas
+       flex-direction: column;
+       align-items: center;
+     */
+}
+
+.contenedor {
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.navegacion-principal a {
+    color: var(--blanco);
+    text-decoration: none;
 }
