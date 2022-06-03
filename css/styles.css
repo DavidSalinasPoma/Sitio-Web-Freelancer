@@ -12,17 +12,22 @@
 
 /* Hack para utilizar REM decuenta de PX */
 html {
-    font-size: 62.5;
+    font-size: 62.5%;
 }
 
 body {
-    font-size: 16px;
     /* 1rem = 10px */
+    font-size: 16px;
+
+    /* Fuente global */
+    font-family: 'Krub', sans-serif;
 }
 
 /* Fin Hack para utilizar REM decuenta de PX */
 
 /* Css para freelancer */
+
+
 .titulo {
     text-align: center;
     font-size: 2rem;
