@@ -37,9 +37,8 @@ body {
 }
 
 .navegacion-principal {
-    padding: 2rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 
     justify-content: space-between;
@@ -50,12 +49,35 @@ body {
      */
 }
 
+@media (min-width: 768px) {
+    .navegacion-principal {
+        flex-direction: row;
+    }
+}
+
 .contenedor {
-    width: 120rem;
+    max-width: 120rem;
     margin: 0 auto;
 }
 
 .navegacion-principal a {
+    padding: 1.5rem;
     color: var(--blanco);
     text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
 }
+
+/* Seudo Clases */
+.navegacion-principal a:hover {
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+
+/* Responsip web degigned */
+/* De 480 para arriba */
+/* @media (min-width: 480px) {
+    body {
+        background-color: blue;
+    }
+} */
